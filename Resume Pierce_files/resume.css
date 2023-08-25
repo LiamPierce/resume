@@ -1,0 +1,59 @@
+.job-line, .education-line {
+  margin-left: -31.5pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+  line-height: 1.0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: -31.5pt;
+}
+
+.position-line {
+  margin-right: -31.5pt;
+  margin-left: -13.5pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+  line-height: 1.0;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1px;
+}
+
+hr {
+  width: calc(100% + 31.5pt * 2);
+  margin-left: -31.5pt;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.resume-item-bullets {
+  width: calc(100% + 10pt);
+}
+
+
+.resume-item-bullet {
+  width: calc(100% - 22.5pt);
+  text-align: justify !important;
+}
+
+a {
+  color: #7663d1;
+  font-weight: bold;
+}
+
+.spacer {
+  line-height: 0.5 !important;
+  height: 5pt;
+}
+
+p.header-spacer {
+  height: 10pt;
+}
+
+p.section-spacer {
+  line-height: 10pt;
+  height: 7pt;
+}
