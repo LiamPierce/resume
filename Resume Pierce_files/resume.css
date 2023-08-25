@@ -1,3 +1,7 @@
+.doc-content {
+    padding-top: 10.3pt;
+}
+
 .job-line, .education-line {
   margin-left: -31.5pt;
   padding-top: 0pt;
@@ -12,8 +16,8 @@
 .position-line {
   margin-right: -31.5pt;
   margin-left: -13.5pt;
-  padding-top: 0pt;
-  padding-bottom: 0pt;
+  padding-top: 1pt;
+  padding-bottom: 1pt;
   line-height: 1.0;
   text-align: left;
   display: flex;
@@ -36,7 +40,7 @@ hr {
 
 .resume-item-bullet {
   width: calc(100% - 22.5pt);
-  text-align: justify !important;
+  text-align: left !important;
 }
 
 a {
@@ -46,7 +50,7 @@ a {
 
 .spacer {
   line-height: 0.5 !important;
-  height: 5pt;
+  height: 7pt;
 }
 
 p.header-spacer {
@@ -55,5 +59,5 @@ p.header-spacer {
 
 p.section-spacer {
   line-height: 10pt;
-  height: 7pt;
+  height: 10pt;
 }
